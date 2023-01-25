@@ -54,3 +54,29 @@ Install intelliJ idea
               System.out.println("*** end of program ***");
              }
          }
+         
+         Quite Python style; each time, remember to clarify the data type;  
+                PRINT just use indentation. 
+         
+         Block statement, have a braket can keep the variables inside the scope
+         
+         
+        package com.pluralsight.letsgetlogical;
+        
+        public class Main {
+            public static void main(String[] args) {
+                double students = 30.0d, rooms = 4.0d;
+                if (rooms > 0.0d){
+                    System.out.println(students);
+                    System.out.println(rooms);
+                    double avg = students / rooms;
+        //            System.out.println("Average is " + avg); - PRINT
+                }
+
+              System.out.println();
+              System.out.println("Average is " + avg); - NOT PRINT,  Since its outside the brackets
+              System.out.println("*** end of program ***");
+            }
+        }
+
+         
