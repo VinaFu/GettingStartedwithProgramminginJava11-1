@@ -55,10 +55,9 @@ Install intelliJ idea
              }
          }
          
-         Quite Python style; each time, remember to clarify the data type;  
-                PRINT just use indentation. 
+    Quite Python style; each time, remember to clarify the data type;  PRINT just use indentation. 
          
-         Block statement, have a braket can keep the variables inside the scope
+    Block statement, have a braket can keep the variables inside the scope
          
          
         package com.pluralsight.letsgetlogical;
