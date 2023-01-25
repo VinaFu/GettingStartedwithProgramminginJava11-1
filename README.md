@@ -3,6 +3,7 @@ Plural Course
 Just some Supplements
 
 Difference between float and double:
+
         Float - 32 bits; Double - 64 bits
         Float is generally used when speed is more important than accuracy.
 
@@ -80,6 +81,10 @@ Difference between float and double:
             }
         }
 
+   
+   
+   4 statements: 4m17 TO BE CONTINUE
+   
    
    https://www.w3schools.com/java/java_data_types.asp
    W3school - Java - Datatype:
