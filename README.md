@@ -1,6 +1,6 @@
 # Getting-Started-with-Programming-in-Java-11
 Plural Course
-
+Just some Supplements
 
 Install intelliJ idea
 
@@ -11,7 +11,6 @@ Install intelliJ idea
                 System.out.println("Hello world!");
                 System.out.println("First Hello world!");
                 System.out.println("Second Hello world!");
-
             }
         }
     
@@ -22,23 +21,36 @@ Install intelliJ idea
            JDK = Java Development Kit - provide tools to create Java apps
            IDE = Integrated Development Environment - edit, build, run, debug
    
-           Developer's
-           IDE  --> JDK --> Java App  --> JRE/run
-           User's 
-           Java App --> JRE --> Host Environment
-   
    ternimal: cmd --> java Main
         // different from python, python should have Python3 new.py [the postfix]
     
     windows + i = Windows Settings; locate the file
     
-    syntax and comments same as those in coursera notes    
-    package com.pluralsight.search
-        // All lowercase; reverse domain name(com.); qualifiers to assure uniqueness
-        // New version in intelliJ is to 
-                1. right click src
-                2. new --> class
-                3. com.pluralsight.letsgetlogical(...).Main
-                //4. Main would be the Main.class
+            SYNTAX and COMMENTS same as those in Introduction to Java Coursera
+            
+            package com.pluralsight.search
+                // All lowercase; reverse domain name(com.); qualifiers to assure uniqueness
+                // New version in intelliJ is to 
+                        1. right click src
+                        2. new --> class
+                        3. com.pluralsight.letsgetlogical(...).Main
+                        //4. Main would be the Main.class
 
-2. 
+4. Block Statement 
+
+        package com.pluralsight.letsgetlogical;
+        public class Main {
+            public static void main(String[] args) {
+                int v1 = 2, v2 = 12;
+                final int diff;
+                diff =  v1 - v2;
+
+                if (diff > 0)
+                    System.out.println(" v1 is greater than v2, diff = " + diff);
+                else
+                    System.out.println(" v1 is not greater than v2, diff = " + diff);
+
+              System.out.println();
+              System.out.println("*** end of program ***");
+             }
+         }
