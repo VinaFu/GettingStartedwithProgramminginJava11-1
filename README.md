@@ -81,9 +81,39 @@ Difference between float and double:
             }
         }
 
-   
-   
-   4 statements: 4m17 TO BE CONTINUE
+
+        THE USE OF SCOPE
+        
+                package com.pluralsight.letsgetlogical;
+        public class Main {
+            public static void main(String[] args) {
+                double value1 = 100.0d;
+                double value2 = 0.0d;
+                double result = 0.0d;
+                char opCode = 'd';
+
+                if (opCode == 'a')
+                    result = value1 + value2;
+                else if(opCode == 's')
+                    result = value1 - value2;
+                else if (opCode == 'm')
+                    result = value1 * value2;
+                else if (opCode == 'd') {
+                    if (value2 != 0)
+                        result = value1 / value2;
+                }
+                        // With curly bracket: return 0.0; because value2 == 0, go back to top "double result = 0.0d", 0.0
+                        // No bracket: when value2 == 0, it continue to move to next else; return "Invalid opCode d" & 0.0
+                        
+                else{
+                    System.out.println("Invalid opCode: " + opCode);
+                    result = 0.0d;
+                    }
+                    System.out.println(result);
+                        // No matter what, you will return result
+            }
+        }
+        
    
    
    https://www.w3schools.com/java/java_data_types.asp
@@ -98,3 +128,6 @@ Difference between float and double:
                 double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
                 boolean	1 bit	Stores true or false values
                 char	2 bytes	Stores a single character/letter or ASCII values
+
+
+        SWITCH
