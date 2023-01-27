@@ -2,10 +2,19 @@
 Plural Course
 Just some Supplements
 
-Difference between float and double:
+Difference between Python and Java:
 
-        Float - 32 bits; Double - 64 bits
-        Float is generally used when speed is more important than accuracy.
+        1) Float and double:
+                Float - 32 bits; Double - 64 bits(more accurate, but can sacrifise to speed)
+                Float is generally used when speed is more important than accuracy.
+                
+        2) Quote
+                '' - string; "" - quotes are interpolated:内插的
+        
+        3) curly bracket:
+                close scope or not; fished with semicolomn;  
+
+
 
 1. Create my first java app
 
@@ -131,3 +140,41 @@ Difference between float and double:
 
 
         SWITCH
+        
+        suitable for byte, short, int, long, char
+        Speed: A switch statement might prove to be faster than ifs provided number of cases are good. Prefer switch if the number of cases are more than 5 otherwise. (Binary method)
+        
+        ...
+        ... Same effect with if-else:
+        
+                double value1 = 100.0d;
+                double value2 = 0.0d;
+                double result = 0.0d;
+                char opCode = 'd';
+
+                switch (opCode){
+                    case 'a':
+                        result = value1 + value2;
+                        break;
+                    case 's':
+                        result = value1 - value2;
+                        break;
+                    case 'm':
+                        result = value1 * value2;
+                        break;
+                    case 'd':
+                        result = value2 !=0 ? value1 / value2: 0.0d;
+                        break;
+                    default:
+                        System.out.println("Invalid opCode: " + opCode);
+                        result = 0.0d;
+                        break;
+                    }
+                    System.out.println(result);
+            }
+        }
+        
+        1) put the same item in switch();
+        2) each scenario starts with case '', ends with break;
+        3) else can be replaced by default
+
