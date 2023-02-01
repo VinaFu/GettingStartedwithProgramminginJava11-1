@@ -28,6 +28,7 @@ Difference between Python and Java:
     
     Only ONE class; static void; System.out.println("...");
       // println = print line
+      // void = specifies that a method should not have a return value
        
            JRE = Java Runtime Environment - enbale executive
            JDK = Java Development Kit - provide tools to create Java apps
